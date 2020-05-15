@@ -1,3 +1,3 @@
-﻿  window.cpp
-c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\window.cpp(126): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+﻿  ChunkHandler.cpp
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\mesh.h(25): warning C4018: '<': signed/unsigned mismatch
   OpenGL Voxels.vcxproj -> C:\Users\harri\Desktop\OpenGL Voxel Current\OpenGL Voxels\Debug\OpenGL Voxels.exe

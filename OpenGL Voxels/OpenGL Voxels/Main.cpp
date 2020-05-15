@@ -10,7 +10,8 @@
 #include "Texture.h"
 #include "Transform.h"
 #include "window.h"
-#include "chunk.h"
+#include "ChunkHandler.h"
+//#include "chunk.h"
 #include "Text.h"
 
 
@@ -121,18 +122,20 @@ int main()
 	};
 	*/
 	chunk Chunk(glm::vec3(0, 0, 0));
-	chunk Chunk2(glm::vec3(17, 0,0));
-	chunk Chunk3(glm::vec3(0, 8, 17));
-	chunk Chunk4(glm::vec3(17, 8, 17));
+	//chunk Chunk2(glm::vec3(16, 0,0));
+	//chunk Chunk3(glm::vec3(0, 0, 16));
+	//chunk Chunk4(glm::vec3(16, 0, 16));
+	//generateChunk(glm::vec3(0, 0, 0));
+	//loadChunk(glm::vec3(0, 0, 0));
 	Chunk.createMesh();
-	Chunk2.createMesh();
-	Chunk3.createMesh();
-	Chunk4.createMesh();
+	//Chunk2.createMesh();
+	//Chunk3.createMesh();
+	//Chunk4.createMesh();
 
 	Mesh mesh(Chunk.vertices, Chunk.texCoords);
-	Mesh mesh2(Chunk2.vertices, Chunk2.texCoords);
-	Mesh mesh3(Chunk3.vertices, Chunk3.texCoords);
-	Mesh mesh4(Chunk4.vertices, Chunk4.texCoords);
+	//Mesh mesh2(Chunk2.vertices, Chunk2.texCoords);
+	//Mesh mesh3(Chunk3.vertices, Chunk3.texCoords);
+	//Mesh mesh4(Chunk4.vertices, Chunk4.texCoords);
 	shader Shader("./res/basicShader");
 	TextRenderer text(&Window);
 	text.Load("./fonts/SourceCodePro-Regular.ttf", 45);
@@ -179,9 +182,9 @@ int main()
 
 		Shader.Update(transform, Camera);
 		mesh.Draw();
-		mesh2.Draw();
-		mesh3.Draw();
-		mesh4.Draw();
+		//mesh2.Draw();
+		//mesh3.Draw();
+		//mesh4.Draw();
 		std::stringstream ss;
 		std::stringstream positionX;
 		std::stringstream positionY;

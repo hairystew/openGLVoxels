@@ -5,12 +5,18 @@
 #include <vector>
 
 
+#ifndef CHUNK_SIZE
+#define CHUNK_SIZE 16	
+
+#endif
+
+
+
 class chunk
 {
 public:
 	glm::vec3 location;
 	std::vector<Vertex> blockData;
-	static const int CHUNK_SIZE = 16;
 	void Draw();
 	void createMesh();
 	void createCube(glm::vec3 pos);

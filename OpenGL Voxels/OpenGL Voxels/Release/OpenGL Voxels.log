@@ -1,0 +1,95 @@
+﻿  glad.c
+  distance-field.c
+  edtaa3func.c
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype-gl\edtaa3func.c(68): warning C4101: 'pfrac': unreferenced local variable
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype-gl\edtaa3func.c(68): warning C4101: 'phiscaled': unreferenced local variable
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype-gl\edtaa3func.c(68): warning C4101: 'err1': unreferenced local variable
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype-gl\edtaa3func.c(67): warning C4101: 'p': unreferenced local variable
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype-gl\edtaa3func.c(67): warning C4101: 'q': unreferenced local variable
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype-gl\edtaa3func.c(68): warning C4101: 'errsign': unreferenced local variable
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype-gl\edtaa3func.c(68): warning C4101: 'phi': unreferenced local variable
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype-gl\edtaa3func.c(68): warning C4101: 'err': unreferenced local variable
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype-gl\edtaa3func.c(68): warning C4101: 'err0': unreferenced local variable
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype-gl\edtaa3func.c(68): warning C4101: 'qfrac': unreferenced local variable
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype-gl\edtaa3func.c(68): warning C4101: 'ascaled': unreferenced local variable
+  platform.c
+  text-buffer.c
+  texture-atlas.c
+  texture-font.c
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype-gl\texture-font.c(662): warning C4101: 'c': unreferenced local variable
+  utf8-utils.c
+  vector.c
+  vertex-attribute.c
+  vertex-buffer.c
+  autofit.c
+  ftbase.c
+  ftbbox.c
+  ftbdf.c
+  ftbitmap.c
+  ftcid.c
+  ftdebug.c
+  ftfstype.c
+  ftgasp.c
+  Compiling...
+  ftglyph.c
+  ftgxval.c
+  ftinit.c
+  ftmm.c
+  ftotval.c
+  ftpatent.c
+  ftpfr.c
+  ftstroke.c
+  ftsynth.c
+  ftsystem.c
+  fttype1.c
+  ftwinfnt.c
+  bdf.c
+  ftcache.c
+  cff.c
+  type1cid.c
+  ftgzip.c
+  ftlzw.c
+  pcf.c
+  pfr.c
+  Compiling...
+  psaux.c
+  pshinter.c
+  psmodule.c
+  raster.c
+  sfnt.c
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype\src\sfnt\ttcolr.c(127): warning C4018: '>': signed/unsigned mismatch
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype\src\sfnt\ttcolr.c(136): warning C4018: '>': signed/unsigned mismatch
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype\src\sfnt\ttcpal.c(121): warning C4018: '>': signed/unsigned mismatch
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype\src\sfnt\ttcpal.c(153): warning C4018: '>': signed/unsigned mismatch
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype\src\sfnt\ttcpal.c(174): warning C4018: '>': signed/unsigned mismatch
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\ext\freetype\src\sfnt\ttcpal.c(195): warning C4018: '>': signed/unsigned mismatch
+  smooth.c
+  truetype.c
+  type1.c
+  type42.c
+  winfnt.c
+  stb_image.c
+  BasicShape.cpp
+  Block.cpp
+  chunk.cpp
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\mesh.h(25): warning C4018: '<': signed/unsigned mismatch
+  ChunkHandler.cpp
+  Face.cpp
+  Main.cpp
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\mesh.h(25): warning C4018: '<': signed/unsigned mismatch
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\main.cpp(158): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Mesh.cpp
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\mesh.h(25): warning C4018: '<': signed/unsigned mismatch
+  shader.cpp
+  shape.cpp
+  Text.cpp
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\text.cpp(116): warning C4838: conversion from 'FT_Pos' to 'GLuint' requires a narrowing conversion
+  Texture.cpp
+  window.cpp
+c:\users\harri\desktop\opengl voxel current\opengl voxels\opengl voxels\window.cpp(126): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     Creating library C:\Users\harri\Desktop\OpenGL Voxel Current\OpenGL Voxels\Release\OpenGL Voxels.lib and object C:\Users\harri\Desktop\OpenGL Voxel Current\OpenGL Voxels\Release\OpenGL Voxels.exp
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  All 2615 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  OpenGL Voxels.vcxproj -> C:\Users\harri\Desktop\OpenGL Voxel Current\OpenGL Voxels\Release\OpenGL Voxels.exe
